@@ -92,20 +92,4 @@ github.com_1.png
 
 This project is licensed under the [MIT License](LICENSE).
 
-```
 
----
-
-✅ **Advantages of this version for GitHub:**
-
-- Fully Markdown-compatible, renders nicely in the repo.  
-- Workflow steps use **emojis and arrows** for readability.  
-- Code blocks are preserved for commands, URLs, and examples.  
-- Users can copy-paste commands easily.
-
----
-
-If you want, I can also **add a small ASCII-style workflow diagram** inside the Markdown to make the flow more visual.  
-
-Do you want me to add that?
-```
