@@ -1,4 +1,4 @@
-[![QR Code for Repo](qr_repo.png)](https://github.com/Neko0kami/Creating-QR)
+[![QR Code for Repo](output_QR.png)](https://github.com/Neko0kami/Creating-QR)
 
 # QR Code Generator from URLs
 
