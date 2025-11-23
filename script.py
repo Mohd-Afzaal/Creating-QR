@@ -9,7 +9,7 @@ with open(file_path, "r", encoding="utf-8") as f:
     urls = [line.strip() for line in f if line.strip()]
 
 if not urls:
-    print("❌ No URLs found in", file_path)
+    print("No URLs found in", file_path)
     exit()
 
 # Create output folder
@@ -27,6 +27,6 @@ for i, url in enumerate(urls, 1):
     filename = os.path.join("qr_codes", f"{domain}_{domain_count[domain]}.png")
 
     qr = segno.make_qr(url)
-    qr.save(filename, scale=10, border=2, light="#2F3961", dark="#FFFFFF")
+    qr.save(filename, scale=10, border=2, dark="#2F3961", light="#FFFFFF")
 
-    print(f"✅ Saved: {filename}")
+    print(f"Saved: {filename}")
